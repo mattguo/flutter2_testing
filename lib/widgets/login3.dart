@@ -17,7 +17,7 @@ class Login3Page extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(32),
       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        Text("BlocProvider outside widget, and get cubit from context.watch"),
+        Text("Consuming the TextLog ChangeNotifier"),
         Text("${_log.label}"),
         Text("${_log.flag}"),
         Checkbox(

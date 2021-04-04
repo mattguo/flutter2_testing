@@ -36,6 +36,10 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Text(
+          "State management",
+          style: TextStyle(fontSize: 20),
+        ),
         LoginPage(),
         BlocProvider(create: (context) => LoginCubit(), child: Login2Page()),
         Login3PageWrapper(),
