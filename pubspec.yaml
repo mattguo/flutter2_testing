@@ -27,6 +27,7 @@ dependencies:
   flutter_bloc: ^7.0.0-nullsafety.3
   freezed_annotation: ^0.14.0
   pixel_color_picker: ^1.0.0
+  provider: ^5.0.0
 
 dev_dependencies:
   flutter_test:

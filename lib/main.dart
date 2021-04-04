@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:play01/cubit/login_cubit.dart';
 import 'package:play01/widgets/login.dart';
 import 'package:play01/widgets/login2.dart';
+import 'package:play01/widgets/login3.dart';
 
 void main() {
   runApp(MyApp());
@@ -36,7 +37,8 @@ class MyHomePage extends StatelessWidget {
       body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         LoginPage(),
-        BlocProvider(create: (context) => LoginCubit(), child: Login2Page())
+        BlocProvider(create: (context) => LoginCubit(), child: Login2Page()),
+        Login3PageWrapper(),
       ])),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
